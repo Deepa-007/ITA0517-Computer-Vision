@@ -13,7 +13,7 @@ if not cap.isOpened():
 
 fps = cap.get(cv2.CAP_PROP_FPS)
 if fps <= 0:
-    fps = 25
+    fps = 15
 
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
